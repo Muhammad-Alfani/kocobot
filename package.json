@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "bash start.sh",
+        "build": "apt install python3 python python3-pip && pip3 install -r requirements.txt && bash start.sh",
         "test": "echo \"No test specified\" && exit 1",
         "start": "bash start.sh"
     },
